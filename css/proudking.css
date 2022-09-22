@@ -1,31 +1,14 @@
 body {margin:0;}
 
-body{
-    width: 100%
-    min-height: 100vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
-  position: fixed;
-  top: 0;
-  width: 100%;
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-li {
-  float: left
-}
-
-li a{
+.navbar a{
   float: center;
   display: inline-block;
   margin-right: 30px;
@@ -42,11 +25,9 @@ li a{
 }
 
 
-ul a:hover:not(.active) {
+.navbar a:hover {
   background-color: gold;
 }
 
-.active {
-  background-color: grey;
-}
+
 
