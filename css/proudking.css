@@ -25,7 +25,7 @@ li {
   float: left
 }
 
-primary {
+li {
   float: center;
   display: inline-block;
   margin-right: 30px;
